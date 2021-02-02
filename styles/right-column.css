@@ -1,5 +1,5 @@
 .first-section {
-    height: 50vh;
+    /* height: 50vh; */
     padding-top: 20px;
     width: 100%;
     position: relative;
@@ -16,10 +16,19 @@
     content: "\2103";
 }
 
+.today {
+    font-size: 40px;
+}
+
+.date {
+    font-size: 15px;
+}
+
 #temp {
     font-size: 80px;
     font-family: 'Nunito', sans-serif;
-    width: 100%;
+    /* width: 100%; */
+    margin-top: 20px;
 }
 
 #temp-degree {
@@ -79,6 +88,16 @@
     /* position: relative; */
 }
 
+.feelslike-Info {
+    margin-top: 15px;
+    font-size: 17px;
+}
+
+.location-Info {
+    margin-top: 5px;
+    font-size: 20px;
+}
+
 .other-info-summary {
     /* width: 100%; */
     display: flex;
@@ -87,6 +106,7 @@
     flex-wrap: wrap;
     margin-top: 89px;
     justify-content: space-evenly;
+    font-size: 15px;
 }
 
 .other-info-summary i {

@@ -54,7 +54,7 @@ const showData = (data) => {
                             <img class="forecast-icon" src="${element['icon']}">
                         </div>    
                         <div class="night-degree-element">
-                            <h4 class="night-degree">${element['nightDegree']}</h4>
+                            <h4 class="night-degree">${Math.trunc(element['nightDegree'])}</h4>
                             <sup class="night-c">&deg;C</sup>
                         </div>
                         <div class="precipitation">
@@ -65,7 +65,7 @@ const showData = (data) => {
                             <p class="dash-after"> &mdash;</p>
                         </div>
                         <div class="morning-degree-element">
-                            <h4 class="morning-degree">${element['mornDegree']}</h4>
+                            <h4 class="morning-degree">${Math.trunc(element['mornDegree'])}</h4>
                             <sup class="morning-c">&deg;C</sup>
                         </div>
                     </div>
