@@ -1,0 +1,25 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.right {
+    height: 100vh;
+    background-image: url(../assets/images/right-bar.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+.left {
+    height: 100vh;
+    background-color: #f2fbff;
+}
+
+.today {
+    font-size: 25px;
+}
+
+.date {
+    font-size: 11px;
+}
